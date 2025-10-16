@@ -1,0 +1,106 @@
+.content-section1 {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #f87809fd;
+        }
+
+        .skills-container1 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .skill-card1 {
+            background: rgb(20, 46, 53);
+            border-radius: 15px;
+            padding: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgb(11, 15, 16);
+        }
+
+        .skill-card1:hover1 {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(253, 253, 253, 0.952);
+            border-color: rgba(240, 224, 180, 0.536);
+        }
+
+        .skill-header1 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .skill-icon1 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            background: rgb(165, 127, 81);
+            font-size: 1.5rem;
+    
+        }
+
+        .skill-title1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color:rgb(238, 95, 19)
+        }
+
+        .skill-description1 {
+            color: #f3f5f7f8;
+            margin-bottom: 20px;
+        }
+
+        .progress-container1 {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .progress-item1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .progress-info1 {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .progress-label1 {
+            font-weight: 500;
+            color:#ffffff
+        }
+
+        .progress-percent1 {
+            color: #fd6900;
+            font-weight: 600;
+        }
+
+        .progress-bar1 {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.182);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill1 {
+            height: 100%;
+            border-radius: 10px;
+            background: linear-gradient(90deg, #dc7724, #fd5000);
+            transition: width 1.5s ease-in-out;
+        }
+
+       
